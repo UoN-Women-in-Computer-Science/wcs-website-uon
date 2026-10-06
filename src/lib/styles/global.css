@@ -1,0 +1,110 @@
+@import './tokens.css';
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	background: var(--paper);
+}
+
+/* Graph paper */
+body {
+	margin: 0;
+	padding-inline: var(--gutter);
+	overflow-x: hidden;
+	color: var(--ink);
+	font: 400 var(--s0) / 1.6 var(--f-body);
+	background-color: var(--paper);
+	background-image:
+		linear-gradient(var(--grid) 1px, transparent 1px),
+		linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+	background-size:
+		22px 22px,
+		22px 22px;
+	background-attachment: local;
+}
+
+a {
+	color: inherit;
+}
+
+/*
+ * Paw cursors (files in static/cursors/). The two numbers are the hotspot:
+ * the point of the image that actually clicks, here the middle of the toes.
+ * Ink paw everywhere, magenta on anything clickable, yellow on stickers you can drag.
+ */
+html {
+	cursor: url('/cursors/paw.svg') 14 6, auto;
+}
+a,
+button,
+summary,
+label[for] {
+	cursor: url('/cursors/paw-pink.svg') 16 7, pointer;
+}
+.sticker {
+	cursor: url('/cursors/paw-yellow.svg') 16 7, grab;
+}
+
+:focus-visible {
+	outline: 3px dashed var(--biro);
+	outline-offset: 4px;
+}
+
+h1,
+h2,
+h3 {
+	font-family: var(--f-display);
+	text-wrap: balance;
+}
+
+/* Handwritten notes in the margins. */
+.hand {
+	font-family: var(--f-hand);
+	color: var(--biro);
+	font-size: 1.7rem;
+	line-height: 1;
+}
+
+/* A highlighter stroke behind a word in a heading. */
+mark {
+	color: inherit;
+	padding-inline: 2px;
+	background: linear-gradient(transparent 55%, var(--postit) 55% 92%, transparent 92%);
+}
+
+.wrap {
+	max-width: var(--page);
+	margin-inline: auto;
+}
+
+section {
+	padding-block: 52px;
+}
+
+.sec-head {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	gap: 6px 22px;
+	margin-bottom: 26px;
+}
+
+.sec-head h2 {
+	margin: 0;
+	font-size: var(--s3);
+	font-weight: 800;
+	line-height: 1.05;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		transition: none !important;
+		animation: none !important;
+	}
+}

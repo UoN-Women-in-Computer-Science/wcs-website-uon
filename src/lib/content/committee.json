@@ -1,0 +1,66 @@
+[
+	{
+		"role": "President",
+		"name": "Jane Doe",
+		"pronouns": "She/Her",
+		"photo": null,
+		"linkedin": "https://www.linkedin.com/",
+		"funFact": ""
+	},
+	{
+		"role": "Vice President",
+		"name": null,
+		"pronouns": "She/Her",
+		"photo": null,
+		"linkedin": "https://www.linkedin.com/",
+		"funFact": ""
+	},
+	{
+		"role": "Publicity Officer",
+		"name": null,
+		"pronouns": "She/Her",
+		"photo": null,
+		"linkedin": "https://www.linkedin.com/",
+		"funFact": ""
+	},
+	{
+		"role": "Sponsorship Officer",
+		"name": null,
+		"pronouns": "She/Her",
+		"photo": null,
+		"linkedin": "https://www.linkedin.com/",
+		"funFact": ""
+	},
+	{
+		"role": "Events Coordinator",
+		"name": null,
+		"pronouns": "She/Her",
+		"photo": null,
+		"linkedin": "https://www.linkedin.com/",
+		"funFact": ""
+	},
+	{
+		"role": "Treasurer",
+		"name": null,
+		"pronouns": "She/Her",
+		"photo": null,
+		"linkedin": "https://www.linkedin.com/",
+		"funFact": ""
+	},
+	{
+		"role": "EDI Officer",
+		"name": null,
+		"pronouns": "She/Her",
+		"photo": null,
+		"linkedin": "https://www.linkedin.com/",
+		"funFact": ""
+	},
+	{
+		"role": "Welfare Officer",
+		"name": null,
+		"pronouns": "She/Her",
+		"photo": null,
+		"linkedin": "https://www.linkedin.com/",
+		"funFact": ""
+	}
+]

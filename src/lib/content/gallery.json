@@ -1,0 +1,32 @@
+[
+	{
+		"photo": "/gallery/trent-building.jpg",
+		"alt": "The Trent Building clock tower on University Park",
+		"caption": "title 1",
+		"date": "2026-02-12"
+	},
+	{
+		"photo": "/gallery/placeholder-1.svg",
+		"alt": "Placeholder",
+		"caption": "title 2",
+		"date": "2026-02-12"
+	},
+	{
+		"photo": "/gallery/placeholder-2.svg",
+		"alt": "Placeholder",
+		"caption": "title 2",
+		"date": "2026-02-12"
+	},
+	{
+		"photo": "/gallery/placeholder-3.svg",
+		"alt": "Placeholder",
+		"caption": "title 2",
+		"date": "2026-02-12"
+	},
+	{
+		"photo": "/gallery/placeholder-4.svg",
+		"alt": "Placeholder",
+		"caption": "title 2",
+		"date": "2026-02-12"
+	}
+]

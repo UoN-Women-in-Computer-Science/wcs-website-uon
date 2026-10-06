@@ -1,0 +1,42 @@
+/*
+ * Design tokens. Every colour and font on the site comes from here,
+ * so changing the look means changing this file, not hunting through components.
+ */
+:root {
+	color-scheme: light;
+
+	/* paper */
+	--paper: #f7f8f3;
+	--card: #fffffb;
+	--grid: rgb(76 120 200 / 0.13);
+
+	/* ink */
+	--ink: #1f2140;
+	--biro: #2b45b8;
+	--muted: #5a5c74;
+
+	/* colour, taken from the logo */
+	--magenta: #b5249e;
+	--magenta-soft: #f4c6e9;
+	--postit: #ffe86a;
+	--mint: #b9f0d2;
+	--blush: #fde6f2;
+
+	/* fonts (loaded in src/app.html) */
+	--f-display: 'Shantell Sans', 'Comic Sans MS', 'Chalkboard SE', system-ui, sans-serif;
+	--f-body: 'Atkinson Hyperlegible', system-ui, -apple-system, sans-serif;
+	--f-hand: 'Reenie Beanie', 'Bradley Hand', cursive;
+	--f-mono: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+	--f-pixel: 'VT323', ui-monospace, monospace;
+
+	/* type scale */
+	--s-1: 0.875rem;
+	--s0: 1rem;
+	--s1: 1.2rem;
+	--s3: clamp(2rem, 5vw, 2.8rem);
+	--s4: clamp(2.8rem, 9vw, 6rem);
+
+	/* page gutter, and the widest the content column gets */
+	--gutter: clamp(20px, 5vw, 64px);
+	--page: 1100px;
+}
