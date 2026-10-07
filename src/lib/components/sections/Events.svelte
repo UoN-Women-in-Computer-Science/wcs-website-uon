@@ -15,7 +15,7 @@
 	});
 
 	const upcoming = $derived(
-		events.filter((e) => e.date >= today).sort((a, b) => a.date.localeCompare(b.date))
+		events.filter((e) => (e.endDate ?? e.date) >= today).sort((a, b) => a.date.localeCompare(b.date))
 	);
 </script>
 

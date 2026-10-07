@@ -1,26 +1,27 @@
 [
 	{
-		"title": "event 1",
-		"date": "2026-10-22",
-		"time": "18:00",
-		"location": "Jubilee Campus",
-		"description": "..",
+		"title": "Ada Lovelace Day",
+		"date": "2026-10-13",
+		"time": "",
+		"location": "",
+		"description": "Celebrating Ada Lovelace Day.  More details soon.",
 		"link": ""
 	},
 	{
-		"title": "event 2",
-		"date": "2026-10-22",
-		"time": "17:00",
-		"location": "Jubilee Campus",
-		"description": "..",
+		"title": "Creepy Coding Challenge",
+		"date": "2026-11-07",
+		"time": "",
+		"location": "",
+		"description": "A spooky coding challenge. More details soon.",
 		"link": ""
 	},
 	{
-		"title": "event 3",
-		"date": "2026-10-31",
-		"time": "15:00",
-		"location": "Jubilee Campus",
-		"description": "..",
+		"title": "Christmas Market",
+		"date": "2026-12-05",
+		"endDate": "2026-12-07",
+		"time": "",
+		"location": "",
+		"description": "More details soon.",
 		"link": ""
 	}
 ]

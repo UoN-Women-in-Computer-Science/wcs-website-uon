@@ -2,22 +2,34 @@
 	// One event: a date block on the left, details on the right.
 	// All the data comes from src/lib/content/events.json.
 
-	/** @type {{ event: { title: string, date: string, time: string, location: string, description: string, link?: string } }} */
+	/** @type {{ event: { title: string, date: string, endDate?: string, time: string, location: string, description: string, link?: string } }} */
 	let { event } = $props();
 
 	// "2026-10-15" -> { day: "15", month: "OCT", weekday: "THU" }
-	const when = $derived.by(() => {
-		const d = new Date(`${event.date}T12:00`);
+	// With an endDate, each part becomes a range: "5–7", "DEC", "SAT–MON".
+	function parts(date) {
+		const d = new Date(`${date}T12:00`);
 		return {
 			day: d.toLocaleDateString('en-GB', { day: 'numeric' }),
 			month: d.toLocaleDateString('en-GB', { month: 'short' }).toUpperCase(),
 			weekday: d.toLocaleDateString('en-GB', { weekday: 'short' }).toUpperCase()
 		};
+	}
+	const range = (a, b) => (a === b ? a : `${a}–${b}`);
+	const when = $derived.by(() => {
+		const start = parts(event.date);
+		if (!event.endDate) return start;
+		const end = parts(event.endDate);
+		return {
+			day: range(start.day, end.day),
+			month: range(start.month, end.month),
+			weekday: range(start.weekday, end.weekday)
+		};
 	});
 </script>
 
 <article class="event">
-	<time class="date" datetime="{event.date}T{event.time}">
+	<time class="date" datetime={event.time ? `${event.date}T${event.time.slice(0, 5)}` : event.date}>
 		<span class="weekday">{when.weekday}</span>
 		<span class="day">{when.day}</span>
 		<span class="month">{when.month}</span>
@@ -25,7 +37,9 @@
 
 	<div class="details">
 		<h3>{event.title}</h3>
-		<p class="meta">{event.time} · {event.location}</p>
+		{#if event.time || event.location}
+			<p class="meta">{[event.time, event.location].filter(Boolean).join(' · ')}</p>
+		{/if}
 		<p>{event.description}</p>
 		{#if event.link}
 			<a href={event.link}>Sign up →</a>
