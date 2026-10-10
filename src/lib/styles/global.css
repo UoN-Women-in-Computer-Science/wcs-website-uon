@@ -76,9 +76,16 @@ mark {
 	background: linear-gradient(transparent 55%, var(--postit) 55% 92%, transparent 92%);
 }
 
+
 .wrap {
+	display: flex;
+	flex-direction: column;
+	min-height: 100svh;
 	max-width: var(--page);
 	margin-inline: auto;
+}
+.wrap > main {
+	flex: 1;
 }
 
 section {

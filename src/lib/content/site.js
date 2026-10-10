@@ -87,3 +87,10 @@ export const cat = {
 	sleeping: 'zzz... compiling...',
 	tooManyPets: 'too many pets!!'
 };
+
+export const notFound = {
+	title: '404: page not found',
+	text: '',
+	button: { label: 'Back to the home page', href: '/' },
+	otherError: 'Something went wrong'
+};
