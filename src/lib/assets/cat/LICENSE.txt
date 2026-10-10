@@ -1,0 +1,77 @@
+2D Pixel Art Cat Sprites
+by Elthen (Elthen's Pixel Art Shop)
+
+Source:   https://elthen.itch.io/2d-pixel-art-cat-sprites
+Licence:  https://www.patreon.com/posts/licensing-27430241
+File:     elthen-cat.png
+
+This sprite sheet is NOT covered by the rest of this repository's licence.
+It belongs to Elthen and is used on the WCS Nottingham site as "Ada the cat".
+
+Please don't take the sprite sheet from this repo. If you want to use it,
+get it from the source link above.
+
+
+========================================================================
+Elthen's Common Sense License 1.0
+(copied from the licence link above)
+========================================================================
+
+You can:
+
+  - You can use the assets for personal and commercial projects.
+  - You can edit/modify the assets to fit your projects.
+
+You can't:
+
+  - You can't (even when the assets are edited/modified) resell or
+    redistribute the assets.
+
+  - You can't use the assets in any form of blockchain-related/
+    crypto-related platform, medium or technology, which includes NFTs,
+    P2E games, cryptocurrency, metaverse or future inventions in the
+    space. You can not use them in any relation to NFTs, sell them by
+    themselves, create games associated with blockchain/crypto
+    technologies.
+
+      - Even when the assets are modified, you are not allowed to use my
+        assets in any kind of blockchain/crypto related technology,
+        platform.
+
+      - You are not allowed to use the assets to promote your
+        blockchain/crypto related projects on any social media
+        platforms, on blockchain/crypto related websites, white pages
+        and similar platforms and marketplaces.
+
+  - You can't use the assets to train any LLM, Generative AI or similar
+    technology or future inventions in the space.
+
+Credits:
+
+  - You don't have to credit me in your projects.
+
+
+------------------------------------------------------------------------
+Further Explanation
+------------------------------------------------------------------------
+
+Q: Hey! There was a different license here! What happened to it ?
+
+A: I've abandoned that license on 1.11.2025. You can still find a copy
+   of it attached below. The assets you've bought before 1.11.2025 comes
+   with that old license. If you buy the assets after that date, the
+   " Elthen's Common Sense License 1.0 " applies.
+
+Q: Can I sell a game that I make with the assets?
+
+A: Yes!
+
+Q: I still want to credit you in my project. What should I write?
+
+A: You don't have to credit me but I appreciate it. You can type
+   "Elthen" if you'd like to credit me. If you also drop a link to my
+   patreon or itch pages, you are a hero.
+
+Q: I still have questions, can I contact you?
+
+A: Please do! You can e-mail me at: elthen.business@gmail.com
