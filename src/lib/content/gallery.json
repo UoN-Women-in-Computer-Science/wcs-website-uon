@@ -1,32 +1,52 @@
 [
 	{
-		"photo": "/gallery/trent-building.jpg",
-		"alt": "The Trent Building clock tower on University Park",
-		"caption": "title 1",
-		"date": "2026-02-12"
+		"photo": "/gallery/freshers-fair.jpg",
+		"alt": "Two committee members smiling at the WCS stall in David Ross Sports Village, with sweets and pumpkin mugs on a pink table.",
+		"caption": "freshers fair"
 	},
 	{
-		"photo": "/gallery/placeholder-1.svg",
-		"alt": "Placeholder",
-		"caption": "title 2",
-		"date": "2026-02-12"
+		"photo": "/gallery/ada-lovelace-trip.jpg",
+		"alt": "A souvenir leaflet about Ada Lovelace held up in front of the Ada Lovelace Walk street sign.",
+		"caption": "ada lovelace trip"
 	},
 	{
-		"photo": "/gallery/placeholder-2.svg",
-		"alt": "Placeholder",
-		"caption": "title 2",
-		"date": "2026-02-12"
+		"photo": "/gallery/painting-picnic.jpg",
+		"alt": "Members painting tote bags around a table with a red checked cloth, pink plates and picnic food.",
+		"caption": "painting + indoor picnic"
 	},
 	{
-		"photo": "/gallery/placeholder-3.svg",
-		"alt": "Placeholder",
-		"caption": "title 2",
-		"date": "2026-02-12"
+		"photo": "/gallery/tote-bag-painting.jpg",
+		"alt": "Four painted tote bags laid out on a table, with flowers, cherries and hearts on them.",
+		"caption": "the finished totes"
 	},
 	{
-		"photo": "/gallery/placeholder-4.svg",
-		"alt": "Placeholder",
-		"caption": "title 2",
-		"date": "2026-02-12"
+		"photo": "/gallery/boba-board-games.jpg",
+		"alt": "Two committee members with their arms out in front of a table of boba cups, under a projector screen saying Boba and Board Games by WCS.",
+		"caption": "boba + board games"
+	},
+	{
+		"photo": "/gallery/pottery-painting-1.jpg",
+		"alt": "Members painting mugs and bowls around a table in a pottery cafe.",
+		"caption": "pottery painting"
+	},
+	{
+		"photo": "/gallery/pottery-painting-2.jpg",
+		"alt": "A hand holding a pink bowl with a yellow sun painted inside, surrounded by paint palettes and brushes.",
+		"caption": "sun bowl in progress"
+	},
+	{
+		"photo": "/gallery/pottery-painting-3.jpg",
+		"alt": "The finished pottery held up together: a heart box with a bow, a strawberry mug, a sun bowl and a bowl with a dog on it.",
+		"caption": "the finished pieces"
+	},
+	{
+		"photo": "/gallery/chocolate-strawberries.jpg",
+		"alt": "Four members holding chocolate covered strawberries next to a white chocolate fountain.",
+		"caption": "chocolate strawberries"
+	},
+	{
+		"photo": "/gallery/matcha-crawl.jpg",
+		"alt": "Members chatting around a long table in a cafe on the matcha crawl.",
+		"caption": "matcha crawl"
 	}
 ]
