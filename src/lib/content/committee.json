@@ -1,66 +1,67 @@
 [
 	{
 		"role": "President",
-		"name": "Jane Doe",
+		"name": "Fatima Rana",
 		"pronouns": "She/Her",
-		"photo": null,
-		"linkedin": "https://www.linkedin.com/",
-		"funFact": ""
+		"photo": "/committee/fatima.jpg",
+		"linkedin": "https://www.linkedin.com/in/fatima-rana-697334325/",
+		"funFact": "President of compSoc, WCS, and a Team Lead of RoboNotts!"
 	},
 	{
 		"role": "Vice President",
-		"name": null,
+		"name": "Wissame Saker",
 		"pronouns": "She/Her",
-		"photo": null,
-		"linkedin": "https://www.linkedin.com/",
-		"funFact": ""
+		"photo": "/committee/wissame.jpg",
+		"linkedin": "https://www.linkedin.com/in/wissame-saker-628269320/",
+		"funFact": "I romanticise university by treating campus like my personal runway. If I have to attend lectures, I might as well look fabulous doing it."
 	},
 	{
 		"role": "Publicity Officer",
-		"name": null,
+		"name": "Hailey Lau",
 		"pronouns": "She/Her",
-		"photo": null,
-		"linkedin": "https://www.linkedin.com/",
-		"funFact": ""
+		"photo": "/committee/hailey.jpg",
+		"linkedin": "https://www.linkedin.com/in/hailey-lau-b02155309",
+		"funFact": "very competitive badminton player"
 	},
 	{
 		"role": "Sponsorship Officer",
-		"name": null,
+		"name": "Khadija Amin",
 		"pronouns": "She/Her",
-		"photo": null,
-		"linkedin": "https://www.linkedin.com/",
-		"funFact": ""
+		"photo": "/committee/khadija.jpg",
+		"linkedin": "https://www.linkedin.com/in/khadija-amin-09643a337/",
+		"funFact": "I don’t like chocolates"
 	},
 	{
 		"role": "Events Coordinator",
-		"name": null,
+		"name": "Safiyah Lafir",
 		"pronouns": "She/Her",
-		"photo": null,
-		"linkedin": "https://www.linkedin.com/",
-		"funFact": ""
-	},
-	{
-		"role": "Treasurer",
-		"name": null,
-		"pronouns": "She/Her",
-		"photo": null,
-		"linkedin": "https://www.linkedin.com/",
-		"funFact": ""
+		"photo": "/committee/safiyah.jpg",
+		"linkedin": "https://www.linkedin.com/in/safiyah-lafir-798977289/",
+		"funFact": "I love playing basketball"
 	},
 	{
 		"role": "EDI Officer",
-		"name": null,
+		"name": "Aakriti Agarwal",
 		"pronouns": "She/Her",
-		"photo": null,
-		"linkedin": "https://www.linkedin.com/",
-		"funFact": ""
+		"photo": "/committee/aakriti.jpg",
+		"linkedin": "https://www.linkedin.com/in/aakriti-agarwal07/",
+		"funFact": "Configuring my setup >>>> actually using it "
 	},
 	{
-		"role": "Welfare Officer",
-		"name": null,
+		"role": "Treasurer",
+		"name": "Anushka Moluguri",
 		"pronouns": "She/Her",
-		"photo": null,
+		"photo": "/committee/anushka.jpg",
+		"linkedin": "https://www.linkedin.com/in/anushka-m-425018248/",
+		"funFact": "I’ve flown a glider"
+	},
+
+	{
+		"role": "Welfare Officer",
+		"name": "Sophie Fung",
+		"pronouns": "She/Her",
+		"photo": "/committee/sophie.jpg",
 		"linkedin": "https://www.linkedin.com/",
-		"funFact": ""
+		"funFact": "I'm currently working on a auto scoring archery app!"
 	}
 ]
