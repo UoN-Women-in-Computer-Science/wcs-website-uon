@@ -1,12 +1,11 @@
 <script>
-	// Photos from past events, newest first, from content/gallery.json.
+	// Photos from past events, in the same order as content/gallery.json.
 	// Shows 4 at a time (2 on tablets, 1 on phones). The arrows slide a whole page; swiping works too.
 	import SectionHead from '../SectionHead.svelte';
 	import Polaroid from '../Polaroid.svelte';
 	import photos from '#lib/content/gallery.json';
 	import { gallery } from '#lib/content/site.js';
 
-	const newestFirst = [...photos].sort((a, b) => b.date.localeCompare(a.date));
 
 	/** @type {HTMLElement | undefined} */
 	let track = $state();
@@ -38,7 +37,7 @@
 
 	<div class="slider">
 		<div class="track" bind:this={track} onscroll={update}>
-			{#each newestFirst as photo, index (photo.photo)}
+			{#each photos as photo, index (photo.photo)}
 				<div class="slide">
 					<Polaroid {photo} {index} />
 				</div>
