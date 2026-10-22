@@ -80,15 +80,17 @@
 		justify-content: space-between;
 		gap: 8px;
 	}
+	/* Name on one line, pronouns underneath, the same on every card however long the name is. */
 	.who {
 		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		gap: 4px 8px;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 4px;
 		min-width: 0;
 	}
+	/* Bold display font, not the handwriting one: it was too thin to read at this size. */
 	.title .hand {
-		font-size: 1.4rem;
+		font: 700 1.05rem / 1.2 var(--f-display);
 		color: var(--magenta);
 	}
 
