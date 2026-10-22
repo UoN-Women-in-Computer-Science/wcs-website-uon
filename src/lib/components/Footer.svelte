@@ -1,47 +1,53 @@
 <script>
+	// Columns come from `footer` in content/site.js.
 	import { footer } from '#lib/content/site.js';
 	import { rich } from '#lib/rich.js';
 </script>
 
-<footer>
-	{#each ['left', 'centre', 'right'] as column (column)}
-		<div class={column}>
-			{#each footer[column] as line (line)}
-				<span>{@html rich(line)}</span>
+<footer style:--columns={footer.length}>
+	{#each footer as column (column.title)}
+		<section>
+			<h2>{column.title}</h2>
+			{#each column.lines as line (line)}
+				<p>{@html rich(line)}</p>
 			{/each}
-		</div>
+		</section>
 	{/each}
 </footer>
 
 <style>
+	/* Equal columns, all left-aligned and lined up along the top. Stacks into one column on phones. */
 	footer {
 		display: grid;
-		grid-template-columns: 1fr auto 1fr; /* equal outer columns keep the middle one truly centred */
-		align-items: start;
-		gap: 8px 24px;
-		padding-block: 22px 40px;
+		grid-template-columns: repeat(var(--columns), minmax(0, 1fr));
+		gap: 24px 40px;
+		padding-block: 26px 40px;
 		border-top: 2px solid var(--ink);
 		font: 0.85rem / 1.5 var(--f-mono);
 		color: var(--muted);
 	}
-	footer div {
+	section {
 		display: grid;
+		align-content: start;
+		gap: 6px;
+		padding: 0;
 	}
-	.centre {
-		text-align: center;
+	h2 {
+		margin: 0 0 4px;
+		font: 2rem / 1 var(--f-hand);
+		color: var(--biro);
 	}
-	.right {
-		text-align: right;
+	p {
+		margin: 0;
+	}
+	/* :global because the links come from {@html}. */
+	p :global(a) {
+		text-underline-offset: 3px;
 	}
 
-	/* Phones: stack the three columns */
 	@media (max-width: 760px) {
 		footer {
-			grid-template-columns: 1fr;
-		}
-		.centre,
-		.right {
-			text-align: left;
+			grid-template-columns: minmax(0, 1fr);
 		}
 	}
 </style>

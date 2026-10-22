@@ -5,7 +5,8 @@ export const links = {
 	instagramHandle: '@uonwcs',
 	linktree: 'https://linktr.ee/nottinghamwcs',
 	email: 'women-in-comp@uonsu.com',
-	github: 'https://github.com/golden-fox07'
+	github: 'https://github.com/golden-fox07',
+	repo: 'https://github.com/UoN-Women-in-Computer-Science/wcs-website-uon'
 };
 
 export const site = {
@@ -66,12 +67,24 @@ export const committee = {
 	subtitle: ''
 };
 
-// Three columns: left, centre, right. Each is a list of lines.
-export const footer = {
-	left: ['Women in Computer Science UoN', `[${links.email}](mailto:${links.email})`],
-	centre: [`made by [Aakriti](${links.github}) at midnight. please don't inspect element:(`],
-	right: ["cat's sprite by [Elthen](https://elthen.itch.io/2d-pixel-art-cat-sprites)"]
-};
+// Columns side by side (stacked on phones). Each has a small heading and a list of lines.
+export const footer = [
+	{
+		title: 'say hi',
+		lines: [
+			'Women in Computer Science UoN',
+			`[${links.email}](mailto:${links.email})`,
+			`found a bug? feel free to [raise a PR](${links.repo}/pulls), or [open an issue](${links.repo}/issues) for any suggestions :)`
+		]
+	},
+	{
+		title: 'credits',
+		lines: [
+			"cat's sprite by [Elthen](https://elthen.itch.io/2d-pixel-art-cat-sprites)",
+			`made by [Aakriti](${links.github}) at midnight. please don't inspect element:(`
+		]
+	}
+];
 
 
 export const cat = {
