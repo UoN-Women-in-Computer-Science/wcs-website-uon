@@ -32,7 +32,7 @@
 		grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
 		gap: 32px;
 		align-items: center;
-		padding-block: 28px 40px;
+		padding-block: 28px 0;
 	}
 	.intro {
 		display: grid;
